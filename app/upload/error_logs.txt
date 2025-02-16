@@ -1,0 +1,389 @@
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T20:00:06.925Z",
+  "finishTime": "2025-02-15T20:00:06.933Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:203:25)\n    at asd (D:\\nexus-hackathon\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:203:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:367:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 13,
+  "method": "logActivity",
+  "params": [
+    85
+  ],
+  "startTime": "2025-02-15T20:15:24.839Z",
+  "finishTime": "2025-02-15T20:15:24.861Z",
+  "status": "error",
+  "error_message": "dfg is not defined",
+  "stack_trace": "ReferenceError: dfg is not defined\n    at logActivity (D:\\nexus-hackathon\\/fn2.js:91:5)\n    at logActivity (D:\\nexus-hackathon\\index.js:203:25)\n    at analyzeResults (D:\\nexus-hackathon\\/fn2.js:84:5)\n    at analyzeResults (D:\\nexus-hackathon\\index.js:203:25)\n    at aggregateData (D:\\nexus-hackathon\\/fn2.js:78:5)\n    at aggregateData (D:\\nexus-hackathon\\index.js:203:25)\n    at computeStatistics (D:\\nexus-hackathon\\/fn2.js:70:5)\n    at computeStatistics (D:\\nexus-hackathon\\index.js:203:25)\n    at processData (D:\\nexus-hackathon\\/fn2.js:44:5)\n    at processData (D:\\nexus-hackathon\\index.js:203:25)\n    at validateData (D:\\nexus-hackathon\\/fn2.js:36:5)\n    at validateData (D:\\nexus-hackathon\\index.js:203:25)\n    at Timeout.fetchInitialData (D:\\nexus-hackathon\\/fn2.js:29:5)\n    at Timeout._onTimeout (D:\\nexus-hackathon\\index.js:203:25)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)",
+  "next_calls": [
+    "notifyUser"
+  ],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T20:30:37.516Z",
+  "finishTime": "2025-02-15T20:30:37.523Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:203:25)\n    at asd (D:\\nexus-hackathon\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:203:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:367:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "startProcess",
+  "params": [
+    "Initial Data"
+  ],
+  "startTime": "2025-02-15T20:42:04.121Z",
+  "finishTime": "2025-02-15T20:42:04.129Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at startProcess (D:\\nexus-hackathon\\/file1.js:7:5)\n    at startProcess (D:\\nexus-hackathon\\index.js:203:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\/file1.js:13:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:367:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [
+    "processData"
+  ],
+  "inner_logs": [
+    {
+      "event": "varDeclaration",
+      "variable": "result",
+      "value": "Initial Data -> transformed by file2 -> finalized by file3",
+      "timestamp": "2025-02-15T20:42:04.123Z"
+    }
+  ],
+  "variables": [
+    {
+      "event": "varDeclaration",
+      "variable": "result",
+      "value": "Initial Data -> transformed by file2 -> finalized by file3",
+      "timestamp": "2025-02-15T20:42:04.123Z"
+    }
+  ]
+}
+{
+  "sequence": 13,
+  "method": "logActivity",
+  "params": [
+    85
+  ],
+  "startTime": "2025-02-15T20:43:22.398Z",
+  "finishTime": "2025-02-15T20:43:22.421Z",
+  "status": "error",
+  "error_message": "dfg is not defined",
+  "stack_trace": "ReferenceError: dfg is not defined\n    at logActivity (D:\\nexus-hackathon\\/fn2.js:91:5)\n    at logActivity (D:\\nexus-hackathon\\index.js:203:25)\n    at analyzeResults (D:\\nexus-hackathon\\/fn2.js:84:5)\n    at analyzeResults (D:\\nexus-hackathon\\index.js:203:25)\n    at aggregateData (D:\\nexus-hackathon\\/fn2.js:78:5)\n    at aggregateData (D:\\nexus-hackathon\\index.js:203:25)\n    at computeStatistics (D:\\nexus-hackathon\\/fn2.js:70:5)\n    at computeStatistics (D:\\nexus-hackathon\\index.js:203:25)\n    at processData (D:\\nexus-hackathon\\/fn2.js:44:5)\n    at processData (D:\\nexus-hackathon\\index.js:203:25)\n    at validateData (D:\\nexus-hackathon\\/fn2.js:36:5)\n    at validateData (D:\\nexus-hackathon\\index.js:203:25)\n    at Timeout.fetchInitialData (D:\\nexus-hackathon\\/fn2.js:29:5)\n    at Timeout._onTimeout (D:\\nexus-hackathon\\index.js:203:25)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)",
+  "next_calls": [
+    "notifyUser"
+  ],
+  "inner_logs": []
+}
+{
+  "sequence": 13,
+  "method": "logActivity",
+  "params": [
+    85
+  ],
+  "startTime": "2025-02-15T20:53:27.534Z",
+  "finishTime": "2025-02-15T20:53:27.554Z",
+  "status": "error",
+  "error_message": "dfg is not defined",
+  "stack_trace": "ReferenceError: dfg is not defined\n    at logActivity (D:\\nexus-hackathon\\/fn2.js:91:5)\n    at logActivity (D:\\nexus-hackathon\\index.js:203:25)\n    at analyzeResults (D:\\nexus-hackathon\\/fn2.js:84:5)\n    at analyzeResults (D:\\nexus-hackathon\\index.js:203:25)\n    at aggregateData (D:\\nexus-hackathon\\/fn2.js:78:5)\n    at aggregateData (D:\\nexus-hackathon\\index.js:203:25)\n    at computeStatistics (D:\\nexus-hackathon\\/fn2.js:70:5)\n    at computeStatistics (D:\\nexus-hackathon\\index.js:203:25)\n    at processData (D:\\nexus-hackathon\\/fn2.js:44:5)\n    at processData (D:\\nexus-hackathon\\index.js:203:25)\n    at validateData (D:\\nexus-hackathon\\/fn2.js:36:5)\n    at validateData (D:\\nexus-hackathon\\index.js:203:25)\n    at Timeout.fetchInitialData (D:\\nexus-hackathon\\/fn2.js:29:5)\n    at Timeout._onTimeout (D:\\nexus-hackathon\\index.js:203:25)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)",
+  "next_calls": [
+    "notifyUser"
+  ],
+  "inner_logs": []
+}
+{
+  "sequence": 1,
+  "method": "testing",
+  "params": [],
+  "startTime": "2025-02-15T20:59:22.519Z",
+  "finishTime": "2025-02-15T20:59:22.523Z",
+  "status": "error",
+  "error_message": "asdf is not defined",
+  "stack_trace": "ReferenceError: asdf is not defined\n    at testing (D:\\nexus-hackathon\\help_my_sanity\\/help_me.js:2:5)\n    at testing (D:\\nexus-hackathon\\index.js:203:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\help_my_sanity\\/help_me.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:367:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 1,
+  "method": "testing",
+  "params": [],
+  "startTime": "2025-02-15T20:59:33.063Z",
+  "finishTime": "2025-02-15T20:59:33.067Z",
+  "status": "error",
+  "error_message": "asdf is not defined",
+  "stack_trace": "ReferenceError: asdf is not defined\n    at testing (D:\\nexus-hackathon\\help_my_sanity\\/help_me.js:2:5)\n    at testing (D:\\nexus-hackathon\\index.js:203:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\help_my_sanity\\/help_me.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:367:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 13,
+  "method": "logActivity",
+  "params": [
+    85
+  ],
+  "startTime": "2025-02-15T21:20:49.732Z",
+  "finishTime": "2025-02-15T21:20:49.755Z",
+  "status": "error",
+  "error_message": "dfg is not defined",
+  "stack_trace": "ReferenceError: dfg is not defined\n    at logActivity (D:\\nexus-hackathon\\/fn2.js:91:5)\n    at logActivity (D:\\nexus-hackathon\\index.js:203:25)\n    at analyzeResults (D:\\nexus-hackathon\\/fn2.js:84:5)\n    at analyzeResults (D:\\nexus-hackathon\\index.js:203:25)\n    at aggregateData (D:\\nexus-hackathon\\/fn2.js:78:5)\n    at aggregateData (D:\\nexus-hackathon\\index.js:203:25)\n    at computeStatistics (D:\\nexus-hackathon\\/fn2.js:70:5)\n    at computeStatistics (D:\\nexus-hackathon\\index.js:203:25)\n    at processData (D:\\nexus-hackathon\\/fn2.js:44:5)\n    at processData (D:\\nexus-hackathon\\index.js:203:25)\n    at validateData (D:\\nexus-hackathon\\/fn2.js:36:5)\n    at validateData (D:\\nexus-hackathon\\index.js:203:25)\n    at Timeout.fetchInitialData (D:\\nexus-hackathon\\/fn2.js:29:5)\n    at Timeout._onTimeout (D:\\nexus-hackathon\\index.js:203:25)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)",
+  "next_calls": [
+    "notifyUser"
+  ],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T21:23:41.775Z",
+  "finishTime": "2025-02-15T21:23:41.782Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:203:25)\n    at asd (D:\\nexus-hackathon\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:203:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:367:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 13,
+  "method": "logActivity",
+  "params": [
+    85
+  ],
+  "startTime": "2025-02-15T22:03:45.750Z",
+  "finishTime": "2025-02-15T22:03:45.768Z",
+  "status": "error",
+  "error_message": "dfg is not defined",
+  "stack_trace": "ReferenceError: dfg is not defined\n    at logActivity (D:\\nexus-hackathon\\/fn2.js:91:5)\n    at logActivity (D:\\nexus-hackathon\\index.js:203:25)\n    at analyzeResults (D:\\nexus-hackathon\\/fn2.js:84:5)\n    at analyzeResults (D:\\nexus-hackathon\\index.js:203:25)\n    at aggregateData (D:\\nexus-hackathon\\/fn2.js:78:5)\n    at aggregateData (D:\\nexus-hackathon\\index.js:203:25)\n    at computeStatistics (D:\\nexus-hackathon\\/fn2.js:70:5)\n    at computeStatistics (D:\\nexus-hackathon\\index.js:203:25)\n    at processData (D:\\nexus-hackathon\\/fn2.js:44:5)\n    at processData (D:\\nexus-hackathon\\index.js:203:25)\n    at validateData (D:\\nexus-hackathon\\/fn2.js:36:5)\n    at validateData (D:\\nexus-hackathon\\index.js:203:25)\n    at Timeout.fetchInitialData (D:\\nexus-hackathon\\/fn2.js:29:5)\n    at Timeout._onTimeout (D:\\nexus-hackathon\\index.js:203:25)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)",
+  "next_calls": [
+    "notifyUser"
+  ],
+  "inner_logs": []
+}
+{
+  "sequence": 13,
+  "method": "logActivity",
+  "params": [
+    85
+  ],
+  "startTime": "2025-02-15T22:03:56.212Z",
+  "finishTime": "2025-02-15T22:03:56.233Z",
+  "status": "error",
+  "error_message": "dfg is not defined",
+  "stack_trace": "ReferenceError: dfg is not defined\n    at logActivity (D:\\nexus-hackathon\\/fn2.js:91:5)\n    at logActivity (D:\\nexus-hackathon\\index.js:203:25)\n    at analyzeResults (D:\\nexus-hackathon\\/fn2.js:84:5)\n    at analyzeResults (D:\\nexus-hackathon\\index.js:203:25)\n    at aggregateData (D:\\nexus-hackathon\\/fn2.js:78:5)\n    at aggregateData (D:\\nexus-hackathon\\index.js:203:25)\n    at computeStatistics (D:\\nexus-hackathon\\/fn2.js:70:5)\n    at computeStatistics (D:\\nexus-hackathon\\index.js:203:25)\n    at processData (D:\\nexus-hackathon\\/fn2.js:44:5)\n    at processData (D:\\nexus-hackathon\\index.js:203:25)\n    at validateData (D:\\nexus-hackathon\\/fn2.js:36:5)\n    at validateData (D:\\nexus-hackathon\\index.js:203:25)\n    at Timeout.fetchInitialData (D:\\nexus-hackathon\\/fn2.js:29:5)\n    at Timeout._onTimeout (D:\\nexus-hackathon\\index.js:203:25)\n    at listOnTimeout (node:internal/timers:569:17)\n    at processTimers (node:internal/timers:512:7)",
+  "next_calls": [
+    "notifyUser"
+  ],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T22:12:18.661Z",
+  "finishTime": "2025-02-15T22:12:18.670Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:368:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T22:12:34.521Z",
+  "finishTime": "2025-02-15T22:12:34.528Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:368:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T22:15:22.692Z",
+  "finishTime": "2025-02-15T22:15:22.698Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:368:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T22:18:34.807Z",
+  "finishTime": "2025-02-15T22:18:34.815Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:368:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T22:19:38.284Z",
+  "finishTime": "2025-02-15T22:19:38.291Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:368:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T22:25:37.911Z",
+  "finishTime": "2025-02-15T22:25:37.918Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:205:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:205:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:369:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T22:28:52.697Z",
+  "finishTime": "2025-02-15T22:28:52.706Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:371:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-15T22:31:53.096Z",
+  "finishTime": "2025-02-15T22:31:53.104Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:371:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-16T00:53:38.218Z",
+  "finishTime": "2025-02-16T00:53:38.230Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:371:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-16T00:54:59.115Z",
+  "finishTime": "2025-02-16T00:54:59.124Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:371:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-16T00:58:32.957Z",
+  "finishTime": "2025-02-16T00:58:32.968Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:371:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-16T01:01:25.988Z",
+  "finishTime": "2025-02-16T01:01:26.001Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:371:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-16T01:02:21.627Z",
+  "finishTime": "2025-02-16T01:02:21.643Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:371:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
+{
+  "sequence": 2,
+  "method": "functionB",
+  "params": [
+    3
+  ],
+  "startTime": "2025-02-16T01:04:18.537Z",
+  "finishTime": "2025-02-16T01:04:18.555Z",
+  "status": "error",
+  "error_message": "a is not defined",
+  "stack_trace": "ReferenceError: a is not defined\n    at functionB (D:\\nexus-hackathon\\js-files\\/fn.js:8:5)\n    at functionB (D:\\nexus-hackathon\\index.js:204:25)\n    at asd (D:\\nexus-hackathon\\js-files\\/fn.js:2:5)\n    at asd (D:\\nexus-hackathon\\index.js:204:25)\n    at Object.<anonymous> (D:\\nexus-hackathon\\js-files\\/fn.js:20:1)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Module._compile (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:117:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Object.newLoader [as .js] (D:\\nexus-hackathon\\node_modules\\pirates\\lib\\index.js:121:7)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Module.require (node:internal/modules/cjs/loader:1143:19)\n    at require (node:internal/modules/cjs/helpers:119:18)\n    at Object.<anonymous> (D:\\nexus-hackathon\\index.js:371:5)\n    at Module._compile (node:internal/modules/cjs/loader:1256:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1310:10)\n    at Module.load (node:internal/modules/cjs/loader:1119:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:960:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:86:12)\n    at node:internal/main/run_main_module:23:47",
+  "next_calls": [],
+  "inner_logs": []
+}
