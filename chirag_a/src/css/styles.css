@@ -1,0 +1,11 @@
+#mynetwork {
+    width: 800px;
+    height: 600px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+  }
+  /* Style for buttons */
+button {
+    margin-top: 10px;
+    margin-right: 10px;
+}

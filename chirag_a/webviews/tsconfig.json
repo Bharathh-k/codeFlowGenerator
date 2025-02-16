@@ -1,0 +1,6 @@
+{
+    "extends": "@tsconfig/svelte/tsconfig.json",
+    "include": ["./**/*","src","media","main.d.ts" ],
+    "exclude": ["../node_modules/*"],
+    "compilerOptions": {"strict": true, }
+  }
